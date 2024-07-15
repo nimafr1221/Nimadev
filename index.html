@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">>
+<title>Menu with Hover Options</title>
+<style>
+    body {
+        background-image: url('./stars.PNG');
+    }
+    .menu {
+        background-color: black;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu a {
+        color: white;
+        text-decoration: none;
+    }
+    .submenu {
+        display: none;
+        position: absolute;
+        background-color: black;
+        padding: 10px;
+    }
+    .menu-item:hover .submenu {
+        display: block;
+    }
+
+    .promo{
+
+      background-image: url(./promo3.jpg)
+    
+    }
+
+    p{
+
+      color: white;
+      text-align: right;
+      font-family: yekan;
+    }
+
+    a{
+
+      color: white;
+      text-align: right;
+      font-family: yekan;
+    }
+
+    h1{
+
+      color: white;
+      text-align: right;
+    }
+
+    h2{
+
+color: white;
+text-align: right;
+}
+    @font-face {
+    font-family: 'yekan';
+    src:url('//cdn.font-store.ir/fonts/yekan/Yekan-Regular.woff2') format('woff2'),
+    url('//cdn.font-store.ir/fonts/yekan/Yekan-Regular.woff') format('woff'),
+    url('//cdn.font-store.ir/fonts/yekan/Yekan-Regular.ttf') format('truetype'),
+	url('//cdn.font-store.ir/fonts/yekan/Yekan-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src:url('//cdn.font-store.ir/fonts/yekan/Yekan-Bold.woff2') format('woff2'),
+    url('//cdn.font-store.ir/fonts/yekan/Yekan-Bold.woff') format('woff'),
+    url('//cdn.font-store.ir/fonts/yekan/Yekan-Bold.ttf') format('truetype'),
+	url('//cdn.font-store.ir/fonts/yekan/Yekan-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+</style>
+</head>
+<body>
+<div class="menu">
+    <div class="menu-item">
+        <a href="#">خانه</a>
+    </div>
+    <div class="menu-item">
+        <a href="./about.html">درباره</a>
+    </div>
+    <div class="menu-item">
+        <a href="./basic.html">دانلود</a>
+        <div class="submenu">
+            <a href="#">Download for Windows</a>
+            <a href="#">Download for Android</a>
+        </div>
+    </div>
+</div>
+<div class="promo" >
+  <br>
+  <br>
+  <h1> سلام من نیما فلاح هستم</h1>
+  <h2>به وبسایت من خوش آمدید</h2>
+  <br>
+  <br>
+</div>
+<p>من یه برنامه نویس و بازی ساز هستم، من تعدادی برنامه در<a href="https://myket.ir/developer/dev-76060">مایکت</a></p>
+
+<p>قرار داده ام و توسط سپرامنیتی گوگل پلی و مایکت بررسی و تایید شده اند اما یک بازی دیگر به اسم ماشین بازی دارم که هنوز در مایکت قرار ندادم و  دو ورژن اندرویدو ویندوز دارد از <a href="./"> اینجا</a>
+
+<p>دانلود کنید :)</p>
+</body>
+</html>
